@@ -21,7 +21,7 @@
           typeDelay="52"
           :text='`🌌 There are ${apiData.number.toString()} people in Space right now.`'>
           </vue-typer>
-          
+          <h2> scroll for more </h2>
         </div>
       </div>
       <div class="section fullpage">
