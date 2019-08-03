@@ -5,12 +5,13 @@ import 'fullpage.js/vendors/scrolloverflow' // Optional. When using scrollOverfl
 import VueFullPage from 'vue-fullpage.js'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VueTyperPlugin from 'vue-typer'
+import apiKey from '../apiKeys.js'
 
 
 Vue.use(VueTyperPlugin)
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyDZVj1FmY3AhP75Q3y2psY_Tw5S3BWonGg',
+    key: apiKey.apiKey,
     libraries: 'places', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/alinaqvi01/who-is-in-space",
   "name": "space",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "dev": "nodemon server.js",
-    "stop": "node server.stop.js"
+    "stop": "node server.stop.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -21,6 +23,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "push-dir": "^0.4.1",
+    "vue-gh-pages": "^1.19.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
