@@ -1,29 +1,5 @@
-# space
+# Who Is In Space?
 
-## Project setup
-```
-npm install
-```
+Good question. Visit WhoIsUpIn.Space to find out 😁
+Built with Vue. Libraries like Fullpage JS and Animate CSS are used to make the site interatcive and fun. Uses the Google Maps API and the Open Notify Space API to get the real time overhead position of the ISS along with the astronauts in it.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
